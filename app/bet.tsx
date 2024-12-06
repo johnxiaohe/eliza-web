@@ -72,7 +72,7 @@ export function Bet() {
             <div className="w-full h-[10rem] mt-10">
                 <h4 className="mt-10 text-6xl text-center font-bold ">Bet On Who?</h4>
             </div>
-            <div className="flex flex-row gap-20">
+            <div className="flex flex-row gap-20 w-[95rem] mt-10 ml-20">
                 <Image
                 src={`/bg2.png`}
                 alt="hero"
@@ -178,11 +178,11 @@ export function Bet() {
                 <div
                     style={{
                         display: "flex",
-                        padding: "8px",
-                        //   borderTop: "1px solid #ddd",
-                        //   background: "#fff",
+                        padding: "9px",
+                        left: 1080,
+                        top: 815,
                     }}
-                    className="absolute bottom-12 left-70 rounded-lg w-[30rem]"
+                    className="absolute rounded-lg w-[30rem]"
                 >
                     <input
                         type="text"
