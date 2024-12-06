@@ -9,7 +9,7 @@ export function Rank() {
   return (
     <div className="flex flex-col overflow-hidden h-[65rem] w-[112rem]">
         <div className="w-full h-[10rem] mt-10">
-            <h1 className="mt-10 text-8xl text-center font-bold ">Hall of Glory</h1>
+            <h4 className="mt-10 text-6xl text-center font-bold ">Our Warriors</h4>
         </div>
         <div className="py-20 flex flex-col lg:flex-row items-center justify-center dark:bg-black w-full gap-40 mx-auto px-8">
             <div className="w-1/5 bg-[url('/rankbg.png')] bg-cover" >

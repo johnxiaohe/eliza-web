@@ -22,8 +22,8 @@ export function Bet() {
         setMessages((prev) => [...prev, "我看好A选手,A大冲冲冲!"]);
         setMessages((prev) => [...prev, "The Best Gamer F"]);
         setMessages((prev) => [...prev, "大家加油!加油!再加油!"]);
-        setMessages((prev) => [...prev, "我再投C一票,C是最棒的!"]);
-        setMessages((prev) => [...prev, "G是第一!G是第一!"]);
+        // setMessages((prev) => [...prev, "我再投C一票,C是最棒的!"]);
+        // setMessages((prev) => [...prev, "G是第一!G是第一!"]);
     }, [])
 
     const handleLClick = (event: React.MouseEvent) => {
@@ -70,7 +70,7 @@ export function Bet() {
         {!next? 
         <>
             <div className="w-full h-[10rem] mt-10">
-                <h1 className="mt-10 text-8xl text-center font-bold ">SoBetAI</h1>
+                <h4 className="mt-10 text-6xl text-center font-bold ">Bet On Who?</h4>
             </div>
             <div className="flex flex-row gap-20">
                 <Image

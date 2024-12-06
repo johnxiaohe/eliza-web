@@ -11,16 +11,19 @@ export default function Home() {
         <MaskContainer
             revealText={
               <p className="max-w-4xl mx-auto text-slate-800 text-center  text-4xl font-bold">
-                We Are Bet  + Social + Inference + Game + AI<br></br>
-                AI Or You Play A Social Reasoning Game With AI<br></br>
+                  Play a Social Reasoning Game With <br></br>
+                  <br></br>
+                  An Self-learn AI Agent<br></br>
+                {/*AI Or You Play A Social Reasoning Game With AI<br></br>*/}
                 {/* Who Win??? */}
               </p>
             }
+
             className="w-full h-full border rounded-md"
         >
           {/* We Are Bet  + Social + Inference + Game + AI<br></br> */}
           {/* AI Or You Play A Social Reasoning Game With AI<br></br> */}
-          <span className="text-red-500">Who Will Be The Winner???</span>
+          <span className="text-red-500">Can You Win ?</span>
         </MaskContainer>
         :
         <HeroScrollDemo></HeroScrollDemo>

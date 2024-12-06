@@ -15,8 +15,8 @@ export function HeroScrollDemo() {
             <>
                 <h1 className="text-4xl font-semibold text-black dark:text-white">
                 {/* SoBetAi <br /> */}
-                <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                    SoBetAi
+                <span className="md:text-[5rem] font-bold mt-1 leading-none">
+                    Let's Play
                 </span>
                 </h1>
             </>
@@ -24,7 +24,7 @@ export function HeroScrollDemo() {
             <Image
             src={`/bg1.png`}
             alt="hero"
-            height={720}
+            height={800}
             width={1400}
             className="mx-auto rounded-2xl object-cover h-full object-left-top"
             draggable={false} />
