@@ -21,13 +21,18 @@ export function HeroScrollDemo() {
                 </h1>
             </>
             }>
-            <Image
-            src={`/bg1.png`}
-            alt="hero"
-            height={800}
-            width={1400}
-            className="mx-auto rounded-2xl object-cover h-full object-left-top"
-            draggable={false} />
+            <video controls height="1200" width="1400" className="mx-auto rounded-2xl object-cover h-full object-left-top">
+                <source src={`/video.mp4`} type={`video/mp4`} />
+                Your browser does not support the video tag.
+            </video>
+            {/*<Image*/}
+            {/*// src={`/bg1.png`}*/}
+            {/*src={`/video.mp4`}*/}
+            {/*alt="hero"*/}
+            {/*height={800}*/}
+            {/*width={1400}*/}
+            {/*className="mx-auto rounded-2xl object-cover h-full object-left-top"*/}
+            {/*draggable={false} />*/}
         </ContainerScroll>
         :
         <Bet></Bet>
